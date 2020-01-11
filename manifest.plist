@@ -1,29 +1,57 @@
-<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
-<plist version="1.0">
-    <dict>
+
         <key>items</key>
-        <array>
-            <dict>
+        <ar
                 <key>assets</key>
                 <array>
                     <dict>
                         <key>kind</key>
                         <string>software-package</string>
                         <key>url</key>
-                        <string>http://你的地址/文件名.ipa</string>
-                    </dict>
-                </array>
-                <key>metadata</key>
-                <dict>
-                    <key>bundle-identifier</key>
-                                        <string>证书ID</string><key>bundle-version</key>
-                    <string>6.3.6</string>
-                    <key>kind</key>
-                    <string>software</string>
-                    <key>title</key>
                     <string>下载显示名称</string>
                 </dict>
             </dict>
         </array>
     </dict>
-</plist>
+</plist><?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>items</key>
+    <array>
+        <dict>
+            <key>assets</key>
+            <array>
+                <dict>
+                    <key>kind</key>
+                    <string>software-package</string>
+                    <key>url</key>
+                    <string>https://raw.githubusercontent.com/chehongchoa/ipa/master/%E6%81%8B%E7%88%B1%E8%AF%9D%E6%9C%AF.ipa</string>
+                </dict>
+                <dict>
+                    <key>kind</key>
+                    <string>display-image</string>
+                    <key>url</key>
+                    <string>https://raw.githubusercontent.com/chehongchoa/ipa/master/57x57.jpg</string>
+                </dict>
+                <dict>
+                    <key>kind</key>
+                    <string>full-size-image</string>
+                    <key>url</key>
+                    <string>https://raw.githubusercontent.com/chehongchoa/ipa/master/512x512.jpg</string>
+                </dict>
+            </array>
+            <key>metadata</key>
+            <dict>
+                <key>bundle-iden
+                <string>com.xuankai.milkTv</string>
+                <key>bundle-version</key>
+                <string>1.0.0</string>
+                <key>kind</key>
+                <string>software</string>
+                <key>title</key>
+                <string>FanweApp</string>
+            </dict>
+        </dict>
+    </array>
+</dict>
+</plist
